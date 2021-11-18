@@ -1,0 +1,49 @@
+/* Our CSS file. */
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flex-container,
+.content {
+  width: 100%;
+  height: 100%;
+}
+.box-card {
+  padding: 70px;
+  background-color: #bbc9bf;
+}
+.card {
+  display: flex;
+  /* flex-direction: column; */
+  background-color: #95a697;
+}
+.card_2 {
+  margin-top: 30px;
+  display: flex;
+  /* flex-direction: column; */
+  background-color: #95a697;
+}
+
+.content_1 {
+  background-color: white;
+  padding: 30px;
+}
+.button {
+  color: black;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1 {
+  background-color: #7be096;
+  border-radius: 40px;
+}
+.image img {
+  height: 300px;
+  width: 300px;
+  background-color: #7be096;
+  padding: 30px;
+}
